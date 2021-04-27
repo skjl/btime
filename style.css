@@ -612,7 +612,7 @@ input[type=submit]:hover {
 @media (max-width: 480px) {
 	header {
 		height: 115px;
-		position: relative;
+
 		margin-bottom: -100px;
 	}
 	
@@ -620,31 +620,22 @@ input[type=submit]:hover {
 		transform: translateX(-70%);
 	}
 	
-	.menu li {
-		opacity: 0;
-		margin-left: -250px;
-		text-align: left;
-	}
-	
 	.burger {
 		display: block;
 		transform: translateX(-150%);
 		margin-top: 38px;
 	}
-
-	
-	.nav-active {
-		transform: translateX(-75%);
-}
 	
 	.menu {
-		display: flex;
-		flex-direction: column;
-		width: 80%;
-		transform: translateX(-200%);
+		width: 60%;
+		transform: translateX(-190%);
 		top: 80px;
 		text-align: left;
 		padding-left: 200px;
+	}
+	
+	.nav-active {
+		transform: translateX(-115%);
 	}
 	
 	.parallax-ref {
